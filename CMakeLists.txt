@@ -24,6 +24,7 @@ cmake_minimum_required(VERSION 2.8)
 project(onboardsdk)
 
 set(CMAKE_VERBOSE_MAKEFILE OFF)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 set(DJIOSDK 0)
 set(DJIOSDK_MINOR_VERSION 1)
